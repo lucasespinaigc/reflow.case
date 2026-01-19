@@ -25,7 +25,7 @@ O desenvolvimento do projeto deve espelhar fielmente o ecossistema da Reflow, re
 - **Framework:** React 18 + Vite.
 - **Linguagem:** TypeScript.
 - **Estilização:** Tailwind CSS.
-- **Arquitetura:** Feature-based Colocation (ver [reflow.client.md](./documents/REFLOW_CLIENT.md)).
+- **Arquitetura:** Feature-based Colocation (ver [REFLOW.CLIET.md](./documents/REFLOW_CLIENT.md)).
 - **Comunicação:** Orvaljs (geração de cliente API) ou Axios/Fetch padrão seguindo o contrato.
 
 ### Backend (`reflow.server`)

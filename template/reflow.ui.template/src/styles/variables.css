@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    :root {
+        --background: 13, 19, 33;
+        --surface: 31, 41, 59;
+        --card: 17, 25, 42;
+        --container: 17, 25, 42;
+        --container-inky: 16, 23, 36;
+        --container-light: 21, 30, 46;
+        --text-title: 254, 254, 255;
+        --text-body: 242, 245, 249;
+        --text-caption: 155, 165, 176;
+        --text-placeholder: 126, 143, 174;
+
+        --scroll: 42, 54, 79;
+
+        --radius: 0.65rem;
+        --max-content-width: 1420px;
+
+        --light-5: 25, 32, 47;
+        --light-10: 32, 41, 60;
+        --light-15: 47, 56, 75;
+
+        --primary-darkest: 49, 38, 3;
+        --primary-action: 178, 144, 56;
+        --primary: 211, 169, 61;
+        --primary-active: 155, 126, 51;
+        --primary-lightest: 254, 249, 195;
+
+        --secondary-darkest: 10, 10, 11;
+        --secondary-action: 36, 40, 52;
+        --secondary: 38, 43, 56;
+        --secondary-active: 32, 35, 45;
+        --secondary-lightest: 200, 200, 200;
+
+        --success-darkest: 14, 51, 40;
+        --success-action: 5, 131, 92;
+        --success: 5, 150, 105;
+        --success-active: 28, 102, 79;
+        --success-lightest: 243, 254, 249;
+
+        --destructive-darkest: 69, 10, 10;
+        --destructive-action: 162, 25, 25;
+        --destructive: 185, 28, 28;
+        --destructive-active: 136, 21, 21;
+        --destructive-lightest: 254, 242, 242;
+
+        --info: 37, 99, 235;
+        --link: 81, 162, 255;
+
+        --orange: 217, 119, 6;
+        --orange-fg: 255, 255, 255;
+
+        --red: 220, 38, 38;
+        --red-fg: 255, 255, 255;
+
+        --blue: 37, 99, 235;
+        --blue-fg: 255, 255, 255;
+
+        --purple: 139, 92, 246;
+        --purple-fg: 255, 255, 255;
+
+        --pink: 236, 72, 153;
+        --pink-fg: 255, 255, 255;
+
+        --green: 22, 163, 74;
+        --green-fg: 255, 255, 255;
+    }
+}
+
+@layer base {
+    body {
+        @apply bg-background text-foreground;
+    }
+
+    .focus-outline {
+        @apply focus:outline-info focus-within:outline-info outline outline-2 outline-offset-[4px] outline-transparent;
+    }
+}
